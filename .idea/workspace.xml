@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form/EditProductFormType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/default/edit_product.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/default/edit_product.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/EditProductFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/EditProductFormType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +225,7 @@
       <workItem from="1652895286984" duration="508000" />
       <workItem from="1652895807563" duration="319000" />
       <workItem from="1652966735924" duration="17852000" />
-      <workItem from="1653045855991" duration="5561000" />
+      <workItem from="1653045855991" duration="8601000" />
     </task>
     <servers />
   </component>
