@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form/ProfileEditFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/profile/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/profile/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/profile/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +229,7 @@
       <workItem from="1652966735924" duration="17852000" />
       <workItem from="1653045855991" duration="13049000" />
       <workItem from="1653214276771" duration="6008000" />
-      <workItem from="1653326966784" duration="907000" />
+      <workItem from="1653326966784" duration="1548000" />
     </task>
     <servers />
   </component>
