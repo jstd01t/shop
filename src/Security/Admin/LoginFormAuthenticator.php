@@ -69,8 +69,8 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator implements P
 
         $user = $this->entityManager->getRepository(User::class)->findOneBy(['email' => $credentials['email']]);
 
-        if (!$user) {
-            throw new UsernameNotFoundException('Email could not be found.');
+        if (!$user || !in_array('ROLE_ADMIN', $user->getRoles())) {
+            throw new UsernameNotFoundException('User not found.');
         }
 
         return $user;

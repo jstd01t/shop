@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/build/section-admin.728a21a0.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/section-admin.e07769c5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/Admin/LoginFormAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/layout/layout_empty_page.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/security/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/notifier.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/notifier.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/Admin/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/Admin/LoginFormAuthenticator.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +233,7 @@
       <workItem from="1653045855991" duration="13049000" />
       <workItem from="1653214276771" duration="6008000" />
       <workItem from="1653326966784" duration="2493000" />
-      <workItem from="1653401473939" duration="4002000" />
+      <workItem from="1653401473939" duration="5398000" />
     </task>
     <servers />
   </component>
