@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_main/_sidebar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_main/_topbar.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_utils/_flash_message.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/layout/layout_main.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/pages/dashboard.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/SecurityController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Security/Admin/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/Admin/LoginFormAuthenticator.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +238,7 @@
       <workItem from="1653045855991" duration="13049000" />
       <workItem from="1653214276771" duration="6008000" />
       <workItem from="1653326966784" duration="2493000" />
-      <workItem from="1653401473939" duration="5398000" />
+      <workItem from="1653401473939" duration="9383000" />
     </task>
     <servers />
   </component>
