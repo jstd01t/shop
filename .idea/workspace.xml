@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_card/_header_action.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/product/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_card/_breadcrumbs.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_card/_form_buttons.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/_embed/_utils/_modal.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/product/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/_embed/_main/_sidebar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_embed/_main/_sidebar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/EditProductFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/EditProductFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/product/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/product/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/default/edit_product.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +197,7 @@
       <recent name="$PROJECT_DIR$/public/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/admin/_embed/_card" />
       <recent name="$PROJECT_DIR$/templates/main" />
       <recent name="$PROJECT_DIR$/public/build" />
       <recent name="$PROJECT_DIR$/public" />
@@ -238,7 +244,8 @@
       <workItem from="1653401473939" duration="9383000" />
       <workItem from="1653483261919" duration="4630000" />
       <workItem from="1653488347417" duration="4716000" />
-      <workItem from="1653494071020" duration="4307000" />
+      <workItem from="1653494071020" duration="8067000" />
+      <workItem from="1653571141099" duration="2836000" />
     </task>
     <servers />
   </component>
