@@ -41,6 +41,7 @@ class ProductFormHandler
         $this->productManager->updateProductImages($product, $tempImageFilename);
 
         //TODO: ADD A NEW IMAGE WITH DIFFERENT SIZES TO THE PRODUCT
+
         // 1. Save product's changes (+)
         // 2. Save uploaded file into temp folder (+)
         // 3. Work with Product(addProductImage) and ProductImage
@@ -51,7 +52,7 @@ class ProductFormHandler
         // 3.3 Save Product with new ProductImage (+)
 
         $this->productManager->save($product);
-dd($product);
+
         return $product;
     }
 }
