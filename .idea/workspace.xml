@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/2/6294f3465c8024.82112308_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/2/6294f3465c8024.82112308_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/2/6294f3465c8024.82112308_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductImageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294dea7b43ba1.89942955_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294dea7b43ba1.89942955_middle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294dea7b43ba1.89942955_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294dfd18743b5.86539180_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294dfd18743b5.86539180_middle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294dfd18743b5.86539180_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294e0462b8d49.81548380_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294e0462b8d49.81548380_middle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294e0462b8d49.81548380_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/temp/e7426ff3-f4db-4599-a398-4ce84a4bd110-616a7a7f4d2944b4d307932ce2576627-6294dea7b41f45.10086431.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/temp/e7426ff3-f4db-4599-a398-4ce84a4bd110-616a7a7f4d2944b4d307932ce2576627-6294dfd1872c32.41920588.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/temp/e7426ff3-f4db-4599-a398-4ce84a4bd110-616a7a7f4d2944b4d307932ce2576627-6294e0462b74c3.77243572.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Handler/ProductFormHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Handler/ProductFormHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294e6dc282c58.94388061_big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294e6dc282c58.94388061_middle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/images/products/2/6294e6dc282c58.94388061_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/temp/e7426ff3-f4db-4599-a398-4ce84a4bd110-616a7a7f4d2944b4d307932ce2576627-6294e6dc27fbd5.20187686.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/uploads/temp/e7426ff3-f4db-4599-a398-4ce84a4bd110-616a7a7f4d2944b4d307932ce2576627-6294f3465c54d2.72114197.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Filesystem/FilesystemWorker.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Filesystem/FilesystemWorker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Manager/ProductImageManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Manager/ProductImageManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/product/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/product/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/product/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/product/list.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +252,7 @@
       <workItem from="1653658505475" duration="12136000" />
       <workItem from="1653745223238" duration="13785000" />
       <workItem from="1653919333636" duration="668000" />
-      <workItem from="1653920289272" duration="5264000" />
+      <workItem from="1653920289272" duration="8495000" />
     </task>
     <servers />
   </component>
