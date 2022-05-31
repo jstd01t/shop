@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/temp/e7426ff3-f4db-4599-a398-4ce84a4bd110-616a7a7f4d2944b4d307932ce2576627-6294f6f002b6c7.90989206.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/Manager/ProductManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Manager/ProductManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +243,7 @@
       <workItem from="1653745223238" duration="13785000" />
       <workItem from="1653919333636" duration="668000" />
       <workItem from="1653920289272" duration="11504000" />
-      <workItem from="1654007034938" duration="1662000" />
+      <workItem from="1654007034938" duration="3270000" />
     </task>
     <servers />
   </component>

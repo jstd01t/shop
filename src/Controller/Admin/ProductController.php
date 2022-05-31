@@ -24,7 +24,7 @@ class ProductController extends AbstractController
     {
         $products = $productRepository->findBy(['isDeleted' => false], ['id' => 'DESC'], 50);
         return $this->render('admin/product/list.html.twig', [
-        'products' => $products
+            'products' => $products
         ]);
     }
 
@@ -34,17 +34,26 @@ class ProductController extends AbstractController
      */
     public function edit(Request $request, ProductFormHandler $productFormHandler, Product $product = null): Response
     {
+        if (!$product) {
+            $product = new Product();
+        }
         $form = $this->createForm(EditProductFormType::class, $product);
         $form->handleRequest($request);
 
+
         if ($form->isSubmitted() && $form->isValid()) {
+
             $product = $productFormHandler->processEditForm($product, $form);
 
             return $this->redirectToRoute('admin_product_edit', ['id' => $product->getId()]);
         }
 
+        $images = $product->getProductImages()
+            ? $product->getProductImages()->getValues()
+            : [];
+
         return $this->render('admin/product/edit.html.twig', [
-            'images' => $product->getProductImages()->getValues(),
+            'images' => $images,
             'product' => $product,
             'form' => $form->createView()
         ]);
@@ -53,7 +62,7 @@ class ProductController extends AbstractController
     /**
      * @Route("/delete/{id}", name="delete")
      */
-    public function delite(Product $product, ProductManager $productManager): Response
+    public function delete(Product $product, ProductManager $productManager): Response
     {
         $productManager->remove($product);
 
