@@ -21,6 +21,6 @@ class DefaultController extends AbstractController
     {
         $entityManager = $this->getDoctrine()->getManager();
         $product = $entityManager->getRepository(Product::class)->findAll();
-        return $this->render('main/default/index.html.twig', []);
+        return $this->render('main/default/index.html.twig', []);        
     }
 }
