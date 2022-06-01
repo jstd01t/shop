@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Utils/Manager/AbstractBaseManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20220601113755.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20220601121121.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ranked-choice.shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ranked-choice.shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/Manager/ProductImageManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Manager/ProductImageManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/Manager/ProductManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Manager/ProductManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +169,8 @@
       <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
       <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
       <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
     </include_path>
   </component>
   <component name="ProjectId" id="29IfxbZpmnmoR3XInWKEo5dc0Q6" />
@@ -257,7 +264,7 @@
       <workItem from="1654021339666" duration="81000" />
       <workItem from="1654021453125" duration="665000" />
       <workItem from="1654072851447" duration="1364000" />
-      <workItem from="1654076263167" duration="3543000" />
+      <workItem from="1654076263167" duration="7228000" />
     </task>
     <servers />
   </component>
