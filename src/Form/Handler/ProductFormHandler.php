@@ -3,6 +3,7 @@
 namespace App\Form\Handler;
 
 use App\Entity\Product;
+use App\Form\DTO\EditProductModel;
 use App\Utils\File\FileSaver;
 use App\Utils\Manager\ProductManager;
 use Doctrine\ORM\EntityManagerInterface;
@@ -26,10 +27,24 @@ class ProductFormHandler
         $this->productManager = $productManager;
     }
 
-    public function processEditForm(Product $product, Form $form)
+    public function processEditForm(EditProductModel $editProductModel, Form $form):?Product
     {
+        $product = new Product();
+
+        if ($editProductModel->id) {
+            $product = $this->productManager->find($editProductModel->id);
+        }
+
+        $product->setTitle($editProductModel->title);
+        $product->setPrice($editProductModel->price);
+        $product->setQuantity($editProductModel->quantity);
+        $product->setDescription($editProductModel->description);
+        $product->setCategory($editProductModel->category);
+        $product->setIsPublished($editProductModel->isPublished);
+        $product->setIsDeleted($editProductModel->isDeleted);
+
+
         $this->productManager->save($product);
-        //will be always run two flush() but it's not critical in this event
 
         $newImageFile = $form->get('newImage')->getData();
 
@@ -39,17 +54,6 @@ class ProductFormHandler
 
 
         $this->productManager->updateProductImages($product, $tempImageFilename);
-
-        //TODO: ADD A NEW IMAGE WITH DIFFERENT SIZES TO THE PRODUCT
-
-        // 1. Save product's changes (+)
-        // 2. Save uploaded file into temp folder (+)
-        // 3. Work with Product(addProductImage) and ProductImage
-        // 3.1 Get path of folder with images of product (+)
-        // 3.2 Work with ProductImage
-        // 3.2.1 Resize and save image into folder (BIG, MIDDLE, SMALL) (+)
-        // 3.2.2 Create ProductImage and return it to Product (+)
-        // 3.3 Save Product with new ProductImage (+)
 
         $this->productManager->save($product);
 

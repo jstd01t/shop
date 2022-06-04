@@ -43,7 +43,7 @@ class ProductController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
 
-            $product = $productFormHandler->processEditForm($product, $form);
+            $product = $productFormHandler->processEditForm($editProductModel, $form);
 
             $this->addFlash('success', 'Your changes were saved!');
 
@@ -54,7 +54,7 @@ class ProductController extends AbstractController
             $this->addFlash('warning', 'Something went wrong. Please check your form!');
         }
 
-        $images = $product->getProductImages()
+        $images = $product
             ? $product->getProductImages()->getValues()
             : [];
 

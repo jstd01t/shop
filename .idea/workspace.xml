@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form/DTO/EditCategoryModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/EditCategoryFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/EditCategoryFormType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Handler/CategoryFormHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Handler/CategoryFormHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/_embed/_card/_breadcrumbs.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_embed/_card/_breadcrumbs.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/_embed/_card/_form_buttons.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_embed/_card/_form_buttons.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/DTO/EditProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/DTO/EditProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/EditProductFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/EditProductFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Handler/ProductFormHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Handler/ProductFormHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/product/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/product/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/product/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/product/list.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +267,7 @@
       <workItem from="1654102339586" duration="57000" />
       <workItem from="1654261683188" duration="11732000" />
       <workItem from="1654346169033" duration="666000" />
-      <workItem from="1654347914996" duration="2090000" />
+      <workItem from="1654347914996" duration="5668000" />
     </task>
     <servers />
   </component>
