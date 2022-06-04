@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20220604150454.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/11/629b8a7b4d9480.28803058_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/11/629b8a7b4d9480.28803058_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/11/629b8a7b4d9480.28803058_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/12/629b8af75c35f2.13995707_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/12/629b8af75c35f2.13995707_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/12/629b8af75c35f2.13995707_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/13/629b8b4db2c640.50043076_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/13/629b8b4db2c640.50043076_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/13/629b8b4db2c640.50043076_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/14/629b8bacd8d0b6.93728946_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/14/629b8bacd8d0b6.93728946_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/14/629b8bacd8d0b6.93728946_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temp/ASI7066-1000-3-654270060-629b8a7b4d4a62.50572028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temp/ASRNT547N4330L-2956032120-629b8b4db2aae2.56445351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temp/Asics-Green-Sports-Shoes-SDL362882893-1-e2329-3533060249-629b8af75c1ea6.16020936.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/temp/th-1224185262-629b8bacd8b522.15688149.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/Manager/CategoryManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Manager/CategoryManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -265,7 +282,7 @@
       <workItem from="1654102339586" duration="57000" />
       <workItem from="1654261683188" duration="11732000" />
       <workItem from="1654346169033" duration="666000" />
-      <workItem from="1654347914996" duration="7828000" />
+      <workItem from="1654347914996" duration="11497000" />
     </task>
     <servers />
   </component>
