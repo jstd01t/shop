@@ -18,8 +18,12 @@ class CategoryController extends AbstractController
         if (!$category) {
             throw new NotFoundHttpException();
         }
-        return $this->render('category/index.html.twig', [
-            'controller_name' => 'CategoryController',
+
+        $products = $category->getProducts()->getValues();
+
+        return $this->render('main/category/show.html.twig', [
+            'category' => $category,
+            'products' => $products,
         ]);
     }
 }

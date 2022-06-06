@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/11/629b8a7b4d9480.28803058_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/11/629b8a7b4d9480.28803058_middle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/11/629b8a7b4d9480.28803058_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/12/629b8af75c35f2.13995707_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/12/629b8af75c35f2.13995707_middle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/12/629b8af75c35f2.13995707_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/13/629b8b4db2c640.50043076_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/13/629b8b4db2c640.50043076_middle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/13/629b8b4db2c640.50043076_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/14/629b8bacd8d0b6.93728946_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/14/629b8bacd8d0b6.93728946_middle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/14/629b8bacd8d0b6.93728946_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/temp/ASI7066-1000-3-654270060-629b8a7b4d4a62.50572028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/temp/ASRNT547N4330L-2956032120-629b8b4db2aae2.56445351.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/temp/Asics-Green-Sports-Shoes-SDL362882893-1-e2329-3533060249-629b8af75c1ea6.16020936.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/temp/th-1224185262-629b8bacd8b522.15688149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/_embed/_menu/_menu_item.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/product/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/category/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/category/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,8 +207,8 @@
       <recent name="$PROJECT_DIR$/public/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/main/email/security" />
       <recent name="$PROJECT_DIR$/templates/main" />
+      <recent name="$PROJECT_DIR$/templates/main/email/security" />
       <recent name="$PROJECT_DIR$/templates/admin/_embed/_card" />
       <recent name="$PROJECT_DIR$/public/build" />
       <recent name="$PROJECT_DIR$/public" />
@@ -282,7 +271,8 @@
       <workItem from="1654102339586" duration="57000" />
       <workItem from="1654261683188" duration="11732000" />
       <workItem from="1654346169033" duration="666000" />
-      <workItem from="1654347914996" duration="11497000" />
+      <workItem from="1654347914996" duration="14979000" />
+      <workItem from="1654519713386" duration="3401000" />
     </task>
     <servers />
   </component>
