@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/15/629e168b5303a0.83888550_big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/15/629e168b5303a0.83888550_middle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/images/products/15/629e168b5303a0.83888550_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/temp/b4ec2eec-7f18-4661-8bd1-01b296364f71-1-f03d7caa582d828e5bf5f3ae76b70e8d-1270098970-629e168b52d687.67306774.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/EmbedController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/_embed/_similar_products.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/_embed/_menu/_desktop_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/_embed/_menu/_desktop_menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/EmbedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/EmbedController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/RegistrationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/EditCategoryFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Admin/EditCategoryFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/EditProductFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Admin/EditProductFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ProfileEditFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Main/ProfileEditFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Main/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/Admin/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/Authenticator/Admin/LoginFormAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/EmailVerifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/Verifier/EmailVerifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/Authenticator/Main/LoginFormAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/default/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/product/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/product/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,11 +221,11 @@
       <recent name="$PROJECT_DIR$/public/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/main" />
-      <recent name="$PROJECT_DIR$/templates/main/email/security" />
-      <recent name="$PROJECT_DIR$/templates/admin/_embed/_card" />
-      <recent name="$PROJECT_DIR$/public/build" />
-      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/Security/Verifier" />
+      <recent name="$PROJECT_DIR$/src/Security/Authenticator/Main" />
+      <recent name="$PROJECT_DIR$/src/Security/Authenticator" />
+      <recent name="$PROJECT_DIR$/src/Form/Main" />
+      <recent name="$PROJECT_DIR$/src/Form/Admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -275,7 +286,7 @@
       <workItem from="1654261683188" duration="11732000" />
       <workItem from="1654346169033" duration="666000" />
       <workItem from="1654347914996" duration="14979000" />
-      <workItem from="1654519713386" duration="9016000" />
+      <workItem from="1654519713386" duration="13687000" />
     </task>
     <servers />
   </component>
