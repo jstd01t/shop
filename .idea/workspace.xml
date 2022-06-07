@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20220607142304.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/CartProduct.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CartProductRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CartRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Main/CartApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/category/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/category/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,11 +204,11 @@
       <recent name="$PROJECT_DIR$/public/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Controller/Main" />
       <recent name="$PROJECT_DIR$/src/Security/Verifier" />
       <recent name="$PROJECT_DIR$/src/Security/Authenticator/Main" />
       <recent name="$PROJECT_DIR$/src/Security/Authenticator" />
       <recent name="$PROJECT_DIR$/src/Form/Main" />
-      <recent name="$PROJECT_DIR$/src/Form/Admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -274,7 +270,7 @@
       <workItem from="1654346169033" duration="666000" />
       <workItem from="1654347914996" duration="14979000" />
       <workItem from="1654519713386" duration="14371000" />
-      <workItem from="1654610181150" duration="1673000" />
+      <workItem from="1654610181150" duration="6656000" />
     </task>
     <servers />
   </component>
