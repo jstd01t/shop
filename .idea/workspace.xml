@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Main/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/cart/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Main/CartApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/CartApiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/_embed/_menu/_desktop_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/_embed/_menu/_desktop_menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Main/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/cart/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/cart/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +270,8 @@
       <workItem from="1654346169033" duration="666000" />
       <workItem from="1654347914996" duration="14979000" />
       <workItem from="1654519713386" duration="14371000" />
-      <workItem from="1654610181150" duration="11253000" />
+      <workItem from="1654610181150" duration="11657000" />
+      <workItem from="1654693635300" duration="4479000" />
     </task>
     <servers />
   </component>
