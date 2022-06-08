@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Entity/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/OrderProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/OrderProductRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/OrderRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Main/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/cart/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/cart/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +275,7 @@
       <workItem from="1654347914996" duration="14979000" />
       <workItem from="1654519713386" duration="14371000" />
       <workItem from="1654610181150" duration="11657000" />
-      <workItem from="1654693635300" duration="4479000" />
+      <workItem from="1654693635300" duration="7339000" />
     </task>
     <servers />
   </component>
