@@ -3,6 +3,8 @@
 namespace App\Controller\Admin;
 
 use App\Entity\Category;
+use App\Entity\User;
+use App\Form\Admin\EditUserFormType;
 use App\Form\DTO\EditCategoryModel;
 use App\Form\Admin\EditCategoryFormType;
 use App\Form\Handler\CategoryFormHandler;
@@ -35,14 +37,17 @@ class UserController extends AbstractController
      * @Route("/edit/{id}", name="edit")
      * @Route("/add", name="add")
      */
-    public function edit(Request $request, CategoryFormHandler $categoryFormHandler, Category $category = null): Response
+    public function edit(Request $request, User $user = null): Response
     {
-        /*$editCategoryModel = EditCategoryModel::makeFromCategory($category);
+        if (!$user) {
+            $user = new User();
+        }
 
-        $form = $this->createForm(EditCategoryFormType::class, $editCategoryModel);
+        $form = $this->createForm(EditUserFormType::class, $user);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            dd($user);
             $category = $categoryFormHandler->processEditForm($editCategoryModel);
 
             $this->addFlash('success', 'Your changes were saved!');
@@ -54,10 +59,10 @@ class UserController extends AbstractController
             $this->addFlash('warning', 'Something went wrong. Please check your form!');
         }
 
-        return $this->render('admin/category/edit.html.twig', [
-            'category' => $category,
+        return $this->render('admin/user/edit.html.twig', [
+            'user' => $user,
             'form' => $form->createView(),
-        ]);*/
+        ]);
     }
 
     /**
