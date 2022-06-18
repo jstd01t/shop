@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/StaticStorage/UserStaticStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/StaticStorage/UserStaticStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/Authenticator/Admin/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/Authenticator/Admin/LoginFormAuthenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin/_embed/_main/_sidebar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/_embed/_main/_sidebar.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +278,7 @@
       <workItem from="1655210208372" duration="541000" />
       <workItem from="1655210763710" duration="2881000" />
       <workItem from="1655213663213" duration="9167000" />
-      <workItem from="1655567711214" duration="4753000" />
+      <workItem from="1655567711214" duration="5251000" />
     </task>
     <servers />
   </component>
