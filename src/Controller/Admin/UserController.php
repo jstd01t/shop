@@ -3,6 +3,7 @@
 namespace App\Controller\Admin;
 
 use App\Entity\Category;
+use App\Entity\StaticStorage\UserStaticStorage;
 use App\Entity\User;
 use App\Form\Admin\EditUserFormType;
 use App\Form\DTO\EditCategoryModel;
@@ -39,6 +40,7 @@ class UserController extends AbstractController
      */
     public function edit(Request $request, UserFormHandler $userFormHandler, User $user = null): Response
     {
+
         if (!$user) {
             $user = new User();
         }
