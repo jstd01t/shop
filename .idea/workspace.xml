@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eea867c-5807-4c0d-b46a-9e0bf49c85ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form/Handler/UserFormHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Manager/UserManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/StaticStorage/UserStaticStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/StaticStorage/UserStaticStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Admin/EditUserFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Admin/EditUserFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Handler/UserFormHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Handler/UserFormHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/user/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/user/edit.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +282,8 @@
       <workItem from="1655209832420" duration="236000" />
       <workItem from="1655210208372" duration="541000" />
       <workItem from="1655210763710" duration="2881000" />
-      <workItem from="1655213663213" duration="8148000" />
+      <workItem from="1655213663213" duration="9167000" />
+      <workItem from="1655567711214" duration="2422000" />
     </task>
     <servers />
   </component>
